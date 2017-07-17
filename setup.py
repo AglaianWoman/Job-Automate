@@ -5,7 +5,7 @@ setup(name='jobautomate',
       author='Mandeep Bhutani',
       description='Automate a job search with Indeed',
       url='https://github.com/mandeep/Job-Automate',
-      packages=['jobautomate', 'jobautomate.tests'],
+      packages=['jobautomate'],
       license='GPLv3+',
       install_requires=[
         'indeed==0.0.4',
