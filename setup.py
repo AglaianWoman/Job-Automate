@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(name='jobautomate',
-      version='0.18.9',
+      version='0.19.0',
       author='Mandeep Bhutani',
       description='Automate a job search with Indeed',
       url='https://github.com/mandeep/Job-Automate',
@@ -10,8 +10,8 @@ setup(name='jobautomate',
       install_requires=[
         'indeed==0.0.4',
         'selenium==2.53.6',
-        'click==6.6',
-        'xvfbwrapper==0.2.8'
+        'click>=6.6',
+        'xvfbwrapper>=0.2.8'
       ],
       entry_points='''
         [console_scripts]
